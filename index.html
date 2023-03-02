@@ -9,10 +9,31 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="page-title">
-            Coding Quiz: test your smarts!
-        </h1>
-    </header>
+    <div id="container">
+        <header>
+            <h1 class="page-title">
+                Coding Quiz: test your smarts!
+            </h1>
+            <button class="start-button">Start</button>
+        </header>
+
+        <h2 id="countdown"></h2>
+        <p id="main"></p>
+        
+        <div class="wrapper">
+            <div id="quiz">
+                <p class="question"></p>
+                <div class="answer"></div>
+
+                <div class="checkAnswers">
+                    <h4>High Scores</h4>
+                    <div class="checker"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/timer.js"></script>
 </body>
 </html>
